@@ -1,0 +1,44 @@
+@keyframes identifier {
+    form {width: 0%; }
+    to {width: 100%;}
+}
+
+.progress-bar {
+    width: 0%;
+    animation-name: identifier;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.progress {
+    width: 95%;
+    margin-left: 40px;
+    height: 15% !important;
+}
+
+
+@keyframes myimg {
+    from {transform: scaleY(0); }
+    to {transform:scaleY(1.5) ; }
+}
+
+
+.hello {
+    transform: scaleY(0);
+    animation-name: myimg;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    font-size: 120px ;
+}
+
+.ziad {
+    border-radius: 200px;
+    transition: 0.5s ease-in-out;
+    
+}
+.ziad:hover {
+    translate: 10px 10px 30px;
+    border-radius: 20px;
+    width: 100% !important;
+}
